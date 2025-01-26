@@ -1,0 +1,22 @@
+name: spill_podcast_player
+description: A Flutter widget for displaying and playing podcast episodes in SPILL's feed UI style
+version: 0.0.1
+homepage: https://github.com/iphonz/spill-podcast-player
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  just_audio: ^0.9.34
+  http: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
